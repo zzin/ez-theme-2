@@ -1,0 +1,13 @@
+/*
+Theme Name:   ez Child
+Template:     ez
+*/
+@import '../ez/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply mt-10;
+}
