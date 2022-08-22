@@ -8,6 +8,13 @@ Template:     ez
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply mt-10;
+.swiper {
+  @apply w-full h-[80vh];
+}
+.swiper-pagination .swiper-pagination-bullet {
+  @apply w-4 h-4;
+}
+
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  @apply bg-primary;
 }
